@@ -1,0 +1,77 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    background-image: url("/imgs/bg.jpg");
+}
+
+.headBox {
+
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    overflow: hidden;
+    
+    /*Shadow*/
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+    text-align: center;
+    
+    
+    
+}
+
+.headTextSpacing {
+    margin-top: 6px;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #212121;
+    letter-spacing: 3px;
+    color: white;
+}
+
+
+
+.textContainer {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 700px;
+    height: 270px;
+
+}
+
+
+.textBoxHead {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+
+}
+
+.textBoxBody {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #212121;
+text-align: justify;
+        letter-spacing: 1.2px;
+
+}
+
+.textBoxFoot {
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #212121;
+}
+
+.bold {
+    font-weight: 400;
+}
